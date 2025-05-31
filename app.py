@@ -14,12 +14,7 @@ import scipy
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, roc_curve, roc_auc_score, silhouette_score, davies_bouldin_score
 import matplotlib.pyplot as plt
 # Download NLTK data if not already downloaded
-try:
-    stopwords = nltk.data.find('corpora/stopwords')
-except nltk.downloader.DownloadError:
-    nltk.download('stopwords')
-except LookupError:
-    nltk.download('stopwords')
+from nltk.corpus import stopwords
 
 # Load the saved models and preprocessors
 logistic_regression_model = joblib.load('logistic_regression_model.pkl')

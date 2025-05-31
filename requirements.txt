@@ -6,4 +6,4 @@ nltk
 scikit-learn 
 imbalanced-learn 
 scipy
-matplotlib.pyplot
+matplotlib

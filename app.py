@@ -1,4 +1,17 @@
+import streamlit as st
+import seaborn as sns
+import pandas as pd
+import numpy as np
 import joblib
+import re
+import nltk
+from nltk.corpus import stopwords
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.preprocessing import LabelEncoder
+from imblearn.over_sampling import SMOTE
+import scipy
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, roc_curve, roc_auc_score, silhouette_score, davies_bouldin_score
+import matplotlib.pyplot as plt
 Download NLTK data if not already downloaded
 try:
     stopwords = nltk.data.find('corpora/stopwords')

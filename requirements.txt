@@ -1,7 +1,6 @@
 seaborn
 pandas
 numpy
-re
 nltk
 scikit-learn 
 imblearn.over_sampling

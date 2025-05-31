@@ -14,12 +14,12 @@
 # import matplotlib.pyplot as plt
 
 # Download NLTK data if not already downloaded
-try:
-    stopwords = nltk.data.find('corpora/stopwords')
-except nltk.downloader.DownloadError:
-    nltk.download('stopwords')
-except LookupError:
-    nltk.download('stopwords')
+# try:
+#     stopwords = nltk.data.find('corpora/stopwords')
+# except nltk.downloader.DownloadError:
+#     nltk.download('stopwords')
+# except LookupError:
+#     nltk.download('stopwords')
 
 # Load the saved models and preprocessors
 logistic_regression_model = joblib.load('logistic_regression_model.pkl')

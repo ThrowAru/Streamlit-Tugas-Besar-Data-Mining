@@ -2,7 +2,6 @@ seaborn
 joblib
 pandas
 numpy
-nltk
 scikit-learn 
 imbalanced-learn 
 scipy

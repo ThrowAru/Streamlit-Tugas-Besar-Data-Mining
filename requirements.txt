@@ -1,12 +1,9 @@
 seaborn
 pandas
 numpy
-joblib
 re
 nltk
-sklearn.feature_extraction.text
-sklearn.preprocessing
+scikit-learn 
 imblearn.over_sampling
 scipy
-sklearn.metrics
 matplotlib.pyplot

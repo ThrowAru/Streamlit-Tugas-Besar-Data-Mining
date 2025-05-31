@@ -23,8 +23,8 @@ kmeans_model = joblib.load('kmeans_model.pkl')
 tfidf_vectorizer = joblib.load('tfidf_vectorizer.pkl')
 
 #Read Data
-dataAsli = pd.read_csv("TelU_reviews.csv")
-data = pd.read_csv("TelU_reviews.csv")
+dataAsli = pd.read_csv("data/TelU_reviews.csv")
+data = pd.read_csv("data/TelU_reviews.csv")
 
 # Menghapus kolom yang tidak dibutuhkan
 columsToDrop = ['page', 'thumbnail']

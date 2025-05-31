@@ -1,4 +1,5 @@
 seaborn
+joblib
 pandas
 numpy
 nltk

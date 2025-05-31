@@ -4,6 +4,6 @@ pandas
 numpy
 nltk
 scikit-learn 
-imblearn.over_sampling
+imbalanced-learn 
 scipy
 matplotlib.pyplot
